@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
@@ -44,4 +45,6 @@ fun GreetingPreview() {
     KotlinWithComposeTheme {
         Greeting("Android")
     }
+}
+
 }
